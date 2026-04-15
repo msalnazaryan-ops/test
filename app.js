@@ -19,6 +19,7 @@ const updatePost = async () => {
                 console.error('There was an error making the PUT request!', error);
         }
 };
+console.log(1);
 
 updatePost();
 
